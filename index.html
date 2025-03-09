@@ -56,12 +56,18 @@
             <button id="next">❯</button>
         </div>
     </div>
+<!-- Botón para cambiar el estilo de las imágenes -->
+<button id="changeStyleButton" class="btn btn-primary">Cambiar Estilo</button>
+<!-- Botón para revertir el estilo de las imágenes -->
+<button id="revertStyleButton" class="btn btn-secondary">Revertir Estilo</button>
 
     <!-- Contenedor para la imagen en zoom -->
     <div class="zoom-container" id="zoomContainer">
         <span class="close-zoom" onclick="closeZoom()">cerrar</span>
         <img id="zoomImage" src="" alt="Zoom">
     </div>
+
+    <script src="button.js"></script>
 
     <script>
         const carouselInner = document.querySelector('.carousel-inner');
